@@ -1,2 +1,4 @@
 # Mastermind
 Play the game mastermind (but with numbers instead of colours) inside a computer terminal.
+
+Mastermind is played by guessing a sequence of colours within a certain amount of turns. Instead of using colours, this game uses a sequence of unique integers to be guessed. The length of this sequence is dependent on the given difficulty (2 to 10 inclusive). You are given a total of 12 attempts to guess the number. After 3 guesses you are prompted if you would like a hint. If you choose to take the hint, you will be given another hint in three rounds. This continues until you run out of guesses. If you refuse the hint, you will be prompted if you would like a hint every round until you accept; if you choose to accept it will follow the same rules as mentioned and prompt if you would like another hint in 3 guesses.
